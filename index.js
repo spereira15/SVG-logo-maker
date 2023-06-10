@@ -22,7 +22,7 @@ function generateLogo(text, textColor, shape, shapeColor) {
 
   // Create SVG content based on user input
   const svgContent = `
-      <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+      <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
         ${shapeElement.getSVG()}
         <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="50" fill="${textColor}">${text}</text>
       </svg>
