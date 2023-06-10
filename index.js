@@ -1,6 +1,6 @@
-const fs = require('fs');
-const inquirer = require('inquirer');
-const { Circle, Triangle, Square } = require('./lib/shapes');
+const fs = require("fs");
+const inquirer = require("inquirer");
+const { Circle, Triangle, Square } = require("./lib/shapes");
 
 // Function to generate SVG logo based on input
 function generateLogo(text, textColor, shape, shapeColor) {
